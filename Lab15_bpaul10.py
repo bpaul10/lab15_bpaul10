@@ -15,6 +15,8 @@ input_values = [1, 2, 3, 4, 5]
 #making a list where each number is muiltiplied to the power of 3
 cubes = [x**3 for x in input_values]
 
+#geeks for geeks matplotlib tutorial was used to help with the plotting of the graphs
+
 #this will make a new figure for where the graph will be drawn
 plt.figure()
 
