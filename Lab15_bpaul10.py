@@ -35,3 +35,30 @@ plt.savefig("cubes_5.png")
 
 #will show the graph on teh screen
 plt.show()
+
+#going to create a range from 1-5000 for the input values
+input_values = list(range(1, 5001))
+
+#gets the cube of the numbers of inputs
+cubes = [x**3 for x in input_values]
+
+#creating new figure for the second graph
+plt.figure()
+
+# will plot the first 5000 numbers and their cubes to the plot
+plt.plot(input_values, cubes)
+
+#giving the graph a title
+plt.title("First 5000 cubes")
+
+#putting x axis label
+plt.xlabel("Input Values")
+
+#putting y axis label
+plt.ylabel("Cubes of Input Values")
+
+#saving graph as png
+plt.savefig("cubes_5000.png")
+
+#shows the second graph on screen
+plt.show()
